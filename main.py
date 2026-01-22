@@ -1,4 +1,6 @@
-from result_manager import add_result, view_results
+from result_manager import add_result, view_results, auto_add_results
+
+auto_add_results()  # This will automatically add some names
 
 while True:
     print("\nSTUDENT RESULT MANAGEMENT SYSTEM")
